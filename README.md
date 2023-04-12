@@ -20,22 +20,19 @@ To run this project on your local machine, follow these instructions:
 
 1. Clone the repository:
 
-git clone https://github.com/holmj/simple-blog
+- https://github.com/holmj/simple-blog
 
 2. Install the dependencies:
 
-cd your-repo-name
-npm install
-
+- cd your-repo-name
+- npm install
 
 3. Start the server:
 
-node app.js
+- node app.js
 
 4. Open your web browser and go to http://localhost:3000 to view the site.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-

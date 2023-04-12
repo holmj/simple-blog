@@ -3,3 +3,4 @@ node_modules/
 
 # Ignore any log files
 *.log
+git

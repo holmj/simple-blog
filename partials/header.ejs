@@ -1,0 +1,13 @@
+<header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/compose">Compose</a>
+      <a href="/todo-list">Todo List</a>
+      <% if (typeof user !== 'undefined' && user) { %>
+        <a href="/logout">Logout</a>
+      <% } else { %>
+        <a href="/login">Login</a>
+      <% } %>
+    </nav>
+  </header>
+  
