@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... -->
+    <link rel="stylesheet" href="/css/styles.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compose a new post</title>
+</head>
+<body>
+  <%- include('partials/header'); %>
+  <h1>Compose a new post</h1>
+  <form action="/compose" method="post">
+    <label for="postTitle">Title:</label>
+    <input type="text" name="postTitle" id="postTitle" required>
+    <br>
+    <label for="postContent">Content:</label>
+    <textarea name="postContent" id="postContent" rows="10" required></textarea>
+    <br>
+    <button type="submit">Publish</button>
+  </form>
+</body>
+</html
